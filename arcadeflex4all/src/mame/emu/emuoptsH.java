@@ -281,14 +281,14 @@ public class emuoptsH {
 /*TODO*///		UI_CABINET,
 /*TODO*///		UI_SIMPLE
 /*TODO*///	};
-/*TODO*///
-/*TODO*///	enum class option_support
-/*TODO*///	{
-/*TODO*///		FULL,                   // full option support
-/*TODO*///		GENERAL_AND_SYSTEM,     // support for general options and system (no softlist)
-/*TODO*///		GENERAL_ONLY            // only support for general options
-/*TODO*///	};
-/*TODO*///
+
+	public enum option_support
+	{
+		FULL,                   // full option support
+		GENERAL_AND_SYSTEM,     // support for general options and system (no softlist)
+		GENERAL_ONLY            // only support for general options
+	};
+
 /*TODO*///	// construction/destruction
 /*TODO*///	emu_options(option_support support = option_support::FULL);
 /*TODO*///	~emu_options();
