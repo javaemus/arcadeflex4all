@@ -1,16 +1,16 @@
+// license:BSD-3-Clause
+// copyright-holders:Aaron Giles
+/***************************************************************************
+
+    emuopts.cpp
+
+    Options file and command line management.
+
+***************************************************************************/
 package mame.emu;
 
 public class emuopts {
-/*TODO*///// license:BSD-3-Clause
-/*TODO*///// copyright-holders:Aaron Giles
-/*TODO*////***************************************************************************
-/*TODO*///
-/*TODO*///    emuopts.cpp
-/*TODO*///
-/*TODO*///    Options file and command line management.
-/*TODO*///
-/*TODO*///***************************************************************************/
-/*TODO*///
+
 /*TODO*///#include "emu.h"
 /*TODO*///#include "emuopts.h"
 /*TODO*///#include "drivenum.h"
@@ -414,12 +414,13 @@ public class emuopts {
 /*TODO*///			entry.lock()->set_priority(OPTION_PRIORITY_MAXIMUM);
 /*TODO*///	}
 /*TODO*///}
-/*TODO*///
-/*TODO*///
-/*TODO*/////**************************************************************************
-/*TODO*/////  EMU OPTIONS
-/*TODO*/////**************************************************************************
-/*TODO*///
+
+
+    //**************************************************************************
+    //  EMU OPTIONS
+    //**************************************************************************
+    public class emu_options
+    {
 /*TODO*/////-------------------------------------------------
 /*TODO*/////  emu_options - constructor
 /*TODO*/////-------------------------------------------------
@@ -1068,7 +1069,8 @@ public class emuopts {
 /*TODO*///	}
 /*TODO*///}
 /*TODO*///
-/*TODO*///
+    }
+
 /*TODO*/////**************************************************************************
 /*TODO*/////  SLOT OPTIONS
 /*TODO*/////**************************************************************************
